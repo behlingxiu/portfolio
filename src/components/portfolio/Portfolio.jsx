@@ -1,9 +1,7 @@
 import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/sociopedia.png";
-import IMG2 from "../../assets/portfolio2.jpeg";
-import IMG3 from "../../assets/portfolio3.avif";
-import IMG4 from "../../assets/portfolio4.avif";
+import IMG2 from "../../assets/fashion-ecomm.png";
 import { BsGithub } from "react-icons/bs";
 import { FaRegShareFromSquare } from "react-icons/fa6";
 import { useMediaQuery } from "@mui/material";
@@ -32,7 +30,7 @@ const Portfolio = () => {
               seamless user experience.
             </h5>
             <div portfolio__item-tech>
-              <h4>MongoDB | Express | React | NodeJs | Redux </h4>
+              <h4> HTML | CSS | MongoDB | Express | React | NodeJs | Redux </h4>
             </div>
 
             <div className="portfolio__item-cta">
@@ -70,19 +68,22 @@ const Portfolio = () => {
             <img src={IMG2} alt="portfolio image" />
           </div>
           <div className="portfolio__item-content">
-            <h3>Portfolio item title</h3>
+            <h3>Fashion Eccommerce Website</h3>
             <h5>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-              odio, aspernatur ipsam eaque consequuntur facere? Ratione
-              quisquam, excepturi dolores voluptatum aperiam laborum dolorum,
-              tenetur, iste quam ullam vel reprehenderit debitis?
+              Explore a responsive fashion ecommerce site that let users
+              seamlessly browse products on the homepage, view details on
+              dedicated product pages, and easily add or remove items to the
+              cart.
             </h5>
             <div portfolio__item-tech>
-              <h4>React | CSS | JavaScript</h4>
+              <h4>HTML | JavaScript | TailwindCSS | React </h4>
             </div>
 
             <div className="portfolio__item-cta">
-              <a href="https://github.com" className="btn">
+              <a
+                href="https://github.com/behlingxiu/fashion-ecomm"
+                className="btn"
+              >
                 {mediumScreen ? (
                   <BsGithub />
                 ) : (
@@ -92,7 +93,7 @@ const Portfolio = () => {
                 )}
               </a>
               <a
-                href="https://dribble.com/Alien_pixels"
+                href="https://fashion-ecomm-x0ne.onrender.com/"
                 className="btn btn-primary"
                 target="_blank"
               >
