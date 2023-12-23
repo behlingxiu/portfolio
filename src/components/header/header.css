@@ -4,10 +4,63 @@ header {
   overflow: hidden;
 }
 
+.chiropractor {
+  padding-right: 20%;
+  opacity: 0;
+  transition: var(--transition);
+}
+
+.developer {
+  opacity: 0;
+  padding-left: 20%;
+  transition: var(--transition);
+}
+
+.header__container:hover {
+  .chiropractor {
+    opacity: 100%;
+    padding: 0;
+  }
+
+  .developer {
+    opacity: 100%;
+    padding: 0;
+  }
+
+  .emoji {
+    opacity: 0;
+    font-size: small;
+  }
+}
+
+h2 {
+  font-size: xx-large;
+}
+
+h3 {
+  margin-top: 5%;
+  padding-right: 10%;
+  font-size: x-large;
+}
+
+h5 {
+  padding: 1%;
+}
+
 .header__container {
   text-align: center;
   height: 100%;
   position: relative;
+}
+
+.emoji {
+  font-size: xxx-large;
+  padding: 0 5%;
+  transition: var(--transition);
+}
+
+.turned {
+  padding: 3%;
 }
 
 /* ========== CTA ========== */
@@ -21,15 +74,16 @@ header {
 /* ========== HEADER SOCIALS ========== */
 .header__socials {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
+  justify-content: center;
   gap: 0.8rem;
-  position: absolute;
-  left: 0;
-  bottom: 3rem;
+  /* position: absolute;
+  left: 0; */
+  /* bottom: 3rem; */
 }
 
-.header__socials::after {
+/* .header__socials::after {
   content: "";
   width: 1px;
   height: 2rem;
@@ -41,26 +95,26 @@ header {
   width: 1px;
   height: 2rem;
   background: var(--color-primary);
-}
+} */
 
 /* ========== ME ========== */
 .me {
   background: linear-gradient(var(--color-primary), transparent);
-  width: 22rem;
-  height: 25rem;
+  width: 25rem;
+  height: 35rem;
   position: absolute;
   left: calc(50% - 11rem);
   margin-top: 4rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
-  padding: 5rem 1.5rem 1.5rem 1.5rem;
+  padding: 3rem 1.5rem 1.5rem 1.5rem;
 }
 
 /* ========== SCROLL DOWN ========== */
 .scroll__down {
   position: absolute;
   right: -2.3rem;
-  bottom: 5rem;
+  /* bottom: 5rem; */
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;

@@ -28,11 +28,21 @@
 .portfolio__item-image > img {
   border-radius: 2rem;
   overflow: hidden;
+  border: 2px solid;
+  border-color: var(--color-primary-variant);
 }
+
+/* .portfolio__item-image > img:hover {
+  border-color: var(--color-primary-variant);
+  transition: var(--transition);
+} */
 
 .portfolio__item-content {
   padding: 1rem;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .portfolio__item-content > h3 {

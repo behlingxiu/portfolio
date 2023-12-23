@@ -1,10 +1,10 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/me-about5.jpg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { BsFolderCheck } from "react-icons/bs";
-import CV from "../../assets/resume.pdf";
+import CV from "../../assets/Ling-Xiu-FlowCV-Resume-20231212 (2).pdf";
+import ME from "../../assets/me-about5.jpg";
 
 const About = () => {
   return (
@@ -37,10 +37,10 @@ const About = () => {
               <small>80+ Completed</small>
             </article>
           </div> */}
-          <div className="about-content-title">
-            <h3> A former Chiropractor 👩‍⚕️</h3>
+          {/* <div className="about-content-title">
+            <h3> A Former Chiropractor 👩‍⚕️</h3>
             <h2> turned Full-Stack Web Developer 👩‍💻</h2>
-          </div>
+          </div> */}
           <p>
             With a background in promoting well-being, I've transitioned my
             dedication to creating impactful digital solutions. From my prior
