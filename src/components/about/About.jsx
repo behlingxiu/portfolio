@@ -3,8 +3,8 @@ import "./about.css";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { BsFolderCheck } from "react-icons/bs";
-import CV from "../../assets/Ling-Xiu-FlowCV-Resume-20231212 (2).pdf";
-import ME from "../../assets/me-about5.jpg";
+import CV from "../../assets/Beh-Ling-Xiu-Resume.pdf";
+import ME from "../../assets/selfie3.jpg";
 
 const About = () => {
   return (
@@ -44,13 +44,17 @@ const About = () => {
           <p>
             With a background in promoting well-being, I've transitioned my
             dedication to creating impactful digital solutions. From my prior
-            professional experience, I excel in applying analytical thinking,
-            empathy, and a holistic approach to problem-solving. As a junior
-            full stack developer, I possess an impressive skills in HTML, CSS,
-            JavaScript, React, NodeJs and Tailwind, leveraging these skills to
-            design and maintain responsive websites that provide a smooth user
-            experiences. My expertise lies in crafting dynamic and engaging
-            interfaces through writting clean and optimized code.
+            professional experience, I excel in applying analytical thinking and
+            a holistic approach to problem-solving. <br /> <br />
+            As a junior full stack developer, I possess an impressive skills in
+            HTML, CSS, JavaScript, React, TailwindCSS, NodeJs, MongoDB and
+            PostgreSQL, leveraging these skills to design and maintain
+            responsive websites that provide a smooth user experiences. I am
+            excited to contribute my skills and enthusiasm to a dynamic tech
+            team in new chapter of my career. Let's connect and explore how my
+            blend of skills can contribute to your team !
+            {/* My expertise lies in crafting dynamic and engaging interfaces through
+            writting clean and optimized code. */}
           </p>
 
           <a href={CV} download className="btn btn-primary">

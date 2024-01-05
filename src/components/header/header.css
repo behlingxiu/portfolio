@@ -1,5 +1,5 @@
 header {
-  height: 110vh;
+  height: 120vh;
   padding-top: 7rem;
   overflow: hidden;
 }
@@ -33,6 +33,12 @@ header {
   }
 }
 
+.header__container > img {
+  size: 10%;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
 h2 {
   font-size: xx-large;
 }
@@ -51,6 +57,15 @@ h5 {
   text-align: center;
   height: 100%;
   position: relative;
+}
+
+.header__image {
+  size: 50%;
+  height: 20rem;
+  width: 20rem;
+  border: 2px solid;
+  border-radius: 100%;
+  overflow: hidden;
 }
 
 .emoji {
@@ -83,38 +98,74 @@ h5 {
   /* bottom: 3rem; */
 }
 
-/* .header__socials::after {
+.header__socials::after {
   content: "";
-  width: 1px;
-  height: 2rem;
+  width: 2rem;
+  height: 1px;
   background: var(--color-primary);
 }
 
 .header__socials::before {
   content: "";
-  width: 1px;
-  height: 2rem;
+  width: 2rem;
+  height: 1px;
   background: var(--color-primary);
-} */
+}
+*/
 
 /* ========== ME ========== */
 .me {
-  background: linear-gradient(var(--color-primary), transparent);
-  width: 25rem;
-  height: 35rem;
-  position: absolute;
-  left: calc(50% - 11rem);
+  background: linear-gradient(var(--color-primary));
+  width: 2rem;
+  height: 2rem;
+  /* position: absolute;
+  left: calc(50% - 11rem); */
   margin-top: 4rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
   padding: 3rem 1.5rem 1.5rem 1.5rem;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.me img {
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 2rem;
+  border: 2px solid;
+  border-radius: 100%;
+  padding-top: 5px;
+}
+
+/* ========== QUOTATION ============ */
+.header__description {
+  padding: 2rem 6rem;
+}
+
+.header__description > h2 {
+  padding: 0.5rem 2rem;
+}
+
+.open {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.close {
+  display: flex;
+  justify-content: flex-end;
 }
 
 /* ========== SCROLL DOWN ========== */
 .scroll__down {
   position: absolute;
   right: -2.3rem;
-  /* bottom: 5rem; */
+  bottom: 5rem;
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
