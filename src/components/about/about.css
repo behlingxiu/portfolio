@@ -16,6 +16,7 @@
   );
   display: grid;
   place-items: center;
+  margin-top: 2rem;
 }
 
 .about__me-image {
@@ -24,13 +25,34 @@
   overflow: hidden;
   transform: rotate(10deg);
   transition: var(--transition);
+  position: relative;
+  display: inline-block;
 }
 
 .about__me-image:hover {
   transform: rotate(0);
 }
 
-/* .about__cards {
+.img {
+  position: relative;
+  display: inline-block;
+}
+
+.img-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.about__me:hover {
+  .img-top {
+    display: inline;
+    z-index: -1;
+  }
+}
+
+.about__cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
@@ -48,7 +70,7 @@
 .about__card:hover {
   background: transparent;
   border-color: var(--color-primary-variant);
-} */
+}
 
 .about__icon {
   color: var(--color-primary);

@@ -113,7 +113,7 @@ h5 {
 }
 
 /* ========== ME ========== */
-.me {
+/* .me {
   background: linear-gradient(var(--color-primary));
   width: 2rem;
   height: 2rem;
@@ -126,7 +126,7 @@ h5 {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .me img {
   width: 10rem;

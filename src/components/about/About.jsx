@@ -4,7 +4,8 @@ import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { BsFolderCheck } from "react-icons/bs";
 import CV from "../../assets/Beh-Ling-Xiu-Resume.pdf";
-import ME from "../../assets/selfie3.jpg";
+import ME_LAPTOP from "../../assets/laptop_img.jpg";
+import ME_CHIRO from "../../assets/chiro_img.jpg";
 
 const About = () => {
   return (
@@ -15,7 +16,8 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="About Image" />
+            <img src={ME_LAPTOP} className="img-top" alt="About Image" />
+            <img src={ME_CHIRO} className="img" alt="About Image top" />
           </div>
         </div>
 
@@ -42,17 +44,17 @@ const About = () => {
             <h2> turned Full-Stack Web Developer 👩‍💻</h2>
           </div> */}
           <p>
-            With a background in promoting well-being, I've transitioned my
-            dedication to creating impactful digital solutions. From my prior
+            I’m a Full Stack Web Developer with a background in healthcare
+            services. My interest in building digital products has helped
+            transitioned my career into software development. From my prior
             professional experience, I excel in applying analytical thinking and
             a holistic approach to problem-solving. <br /> <br />
-            As a junior full stack developer, I possess an impressive skills in
-            HTML, CSS, JavaScript, React, TailwindCSS, NodeJs, MongoDB and
-            PostgreSQL, leveraging these skills to design and maintain
-            responsive websites that provide a smooth user experiences. I am
-            excited to contribute my skills and enthusiasm to a dynamic tech
-            team in new chapter of my career. Let's connect and explore how my
-            blend of skills can contribute to your team !
+            As a junior full stack developer, I possess skills in HTML, CSS,
+            JavaScript, React, TailwindCSS, NodeJs, MongoDB and PostgreSQL,
+            leveraging these skills to design and maintain responsive websites
+            that provide a smooth user experiences. I am excited to contribute
+            my skills and enthusiasm to a dynamic tech team in new chapter of my
+            career.
             {/* My expertise lies in crafting dynamic and engaging interfaces through
             writting clean and optimized code. */}
           </p>
